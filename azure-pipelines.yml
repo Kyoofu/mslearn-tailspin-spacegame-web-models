@@ -40,4 +40,4 @@ steps:
     command: 'push'
     packagesToPush: '$(Build.ArtifactStagingDirectory)/*.nupkg'
     nuGetFeedType: 'internal'
-    publishVstsFeed: '4f1413db-d47f-4449-b22a-e37bf29c9da2/34c748f0-fe02-4cb6-b0f4-621e6a99a395'
+    publishVstsFeed: '$(System.TeamProject)/Tailspin.SpaceGame.Web.Models1'
